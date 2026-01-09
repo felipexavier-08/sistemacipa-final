@@ -8,7 +8,7 @@
         session_start();
     }
 
-    //import all objects
+    //importa os models
     require_once __DIR__ . "/models/Funcionario.php";
     require_once __DIR__ . "/models/BrancoOuNulo.php";
     require_once __DIR__ . "/models/Candidato.php";
